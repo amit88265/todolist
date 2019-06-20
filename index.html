@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="handheldFriendly" content="true">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="index.css">
+    <title>todos</title>
+</head>
+
+<body>
+    <div id="main">
+        <div id="todo">
+            <h1 id="todos">todos</h1>
+        </div>
+
+        <div id="divForBoxing">
+            <div id="input_feild">
+                <span id="arrow_down"><i id="arrow" class="fa fa-angle-down"></i></span>
+                <input id="inpt" type="text" placeholder="What needs to be done?" />
+                
+            </div>
+            <hr id="hrAfterInput">
+            <div id="task">
+
+            </div>
+
+
+
+            <div id="bottom">
+              
+                <p class="bottom_pad" id="item_left"></p>
+                <div id="button_all_active_complete">
+                    <button class="bottom_pad" id="allbtn">All</button>
+                    <button class="bottom_pad" id="activebtn">Active</button>
+                    <button class="bottom_pad" id="completedbtn">Completed</button>
+                </div>
+                <button class="bottom_pad" style="display: none;" id="clearbtn"></button>
+              
+            </div>
+            
+        </div>
+        <div id="stack">
+
+        </div>
+
+    </div>
+
+</body>
+<script src="index.js"></script>
+
+</html>
